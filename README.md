@@ -5,6 +5,7 @@ Coinlib is a cryptocurrency data interface that aggregates real-time market data
 
 ## Installation
 (The only dependency included is `requests`). You can install this package using:
+
 `pip install git+https://github.com/jeffreyzhang2001/python-coinlib-api-wrapper.git`
 
 ## Quickstart
@@ -12,9 +13,10 @@ Coinlib is a cryptocurrency data interface that aggregates real-time market data
 You will need a Coinlib API key, which can be generated at https://coinlib.io/ with an account.
 ## Usage
 With this requirement satisfied, you can instantiate an instance of the Coinlib API Wrapper as follows:
+
 `coinlib = Coinlib('API_KEY_GOES_HERE')`
 
-> With this lazy `coinlib` instance, you are able to access Coinlib's data in 3 main routes: **global data, data sorted by metrics, and individual coin data** (details in Documentation section). 
+> With this lazy `coinlib` instance, you are able to access Coinlib's data through 3 main routes: **global data, sorted data, and individual coin data** (details in Documentation section). 
 ---
 **For example**, let's say you wanted to find out the % change for BTC over the last 24h, across all major exchanges. You would create a coin instance as follows: 
 
