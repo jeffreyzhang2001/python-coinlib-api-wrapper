@@ -36,6 +36,7 @@ print(24h_change)
 ```
 
 **Sample Output**
+
 ```2.14```
 
 
@@ -48,7 +49,7 @@ print(24h_change)
 
 > A full list of supported exchanges can be found at: https://coinlib.io/exchanges.
 
-> The `pref_currency` argument will accept any standard fiat alphabetic code (e.g. USD, CAD, JPY) or any supported cryptocurrency abbreviation - even the obscure ones (e.g. BTC, ETH, LTC).
+> The `pref_currency` argument will accept any standard fiat alphabetic code (e.g. USD, CAD, JPY) or any supported cryptocurrency abbreviation - even the obscure ones (e.g. BTC, ETH, LTC). If no argument is passed into the class during object creation, the object will default to USD.
 
 To use this wrapper, a Coinlib object should first be initialized as follows:
 ```coinlib = Coinlib('API_KEY_GOES_HERE')```
