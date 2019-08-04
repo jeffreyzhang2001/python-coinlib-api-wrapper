@@ -8,6 +8,10 @@ Python 3 is required. You can install this package using:
 
 `pip install git+https://github.com/jeffreyzhang2001/python-coinlib-api-wrapper.git`
 
+## Dependencies
+* Requests - this package can be installed using:
+  `pip install requests`
+
 ## Quickstart
 ### API Key
 You will need a Coinlib API key, which can be generated at https://coinlib.io/ with an account.
@@ -41,7 +45,6 @@ print(24h_change)
 
 
 ## Documentation
-
 ### Notes
 > Delta values may vary with different fiat currencies set as the `pref_currency` due to the availability of certain currencies on some exchanges, thus yielding different average deltas.
 
